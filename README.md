@@ -4,4 +4,4 @@
 •note: masih tahap pengembangan akan diupdate lagi secepatnya
 
 •referensi:
-tridibsamanta/CPP_Beginner_to_Expert
+tridibsamanta
