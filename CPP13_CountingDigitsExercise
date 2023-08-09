@@ -1,0 +1,22 @@
+/**
+ * Author:    Isa Ms
+ * Created:   09.08.2023
+ **/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num,hitungDigit =1;
+    cout<< "Masukkan angkah: ";
+    cin >> num;
+    int temp = num;
+    //membagi dengan angka 10, sampai mendapatkan hasil bagi 0
+    while(temp/=10)
+        //Tingkatkan jumlah digit sebesar 1
+        hitungDigit++;
+
+    cout<<"Angka "<< num<<" memiliki " << hitungDigit << " digit's" << endl;
+
+}

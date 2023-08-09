@@ -1,0 +1,29 @@
+/**
+ * Author:    Isa Ms
+ * Created:   09.08.2023
+ **/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i = 0;
+    while(i<10){
+        cout<<"Hallo world"<<endl;
+        //increment didalam body loop
+        i++;
+    }
+    int j = 10;
+    while (j--)
+        cout<<j<<endl;
+
+    //tidak memeriksa kondisi di awal
+    //Oleh karena itu jalankan instruksi di dalam blok do setidaknya sekali
+    do{
+        cout<<"hallo"<<endl;
+        i--;
+    }
+    while(i);
+}

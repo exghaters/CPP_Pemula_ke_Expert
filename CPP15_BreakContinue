@@ -1,0 +1,28 @@
+/**
+ * Author:    Isa Ms
+ * Created:   09.08.2023
+ **/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    for(int i = 1; i <= 10; i++){
+        if(i == 2 )
+            continue; //Semuanya setelah continue Tidak Akan DIEKSEKUSI
+        //Tapi loop tidak mau berhenti, itu melewatkan instruksi iterasi saat ini.
+        if(i == 5)
+            break;//Semuanya setelah Break TIDAK AKAN dieksekusi dan kontrol keluar dari loop.
+        //Loop tertentu menghentikan eksekusi setelah pernyataan break ditemukan.
+        cout<<"Table Perkalian: "<< i << endl;
+
+        for(int j=1 ; j<=10; j++){
+                if(j==5)
+                    break; //Tidak akan mencetak setelah 4 baris pertama untuk setiap tabel
+            cout<<i<<" X " << j<<" = " <<(i*j)<< endl;
+        }
+        cout<<endl;
+    }
+}
