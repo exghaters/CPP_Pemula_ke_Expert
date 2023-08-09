@@ -1,5 +1,5 @@
 # CPP_Pemula_ke_Expert
-•Repo ini dibuat agar memudakan kalian memahami program language CP
+•Repo ini dibuat agar memudakan kalian memahami program language CP \n
 
 •Repo ini ditujukan untuk myGF saya juga dapat belajar coding
 
